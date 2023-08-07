@@ -2,7 +2,7 @@ import pandas as pd
 import time
 
 # Read the CSV file into a pandas DataFrame
-csv_file_path = 'Reviews3.csv'  # Replace with the actual path to your CSV file
+csv_file_path = 'Reviews3.csv'  # Replace with the actual path to the CSV file
 data = pd.read_csv(csv_file_path)
 
 # Create an empty dictionary to store word counts
